@@ -27,13 +27,13 @@ You can install the packages with the following command:
 ```bash
 [admin@srv ~]$ su -
 Password: 
-[root@srv ~]# apt-get update && apt-get install gcc make update-kernel perl dkms libelf kernel-headers-modules-<core-version> -y
+[root@srv ~]$ apt-get update && apt-get install gcc make update-kernel perl dkms libelf kernel-headers-modules-<core-version> -y
 ```
 Replace <core-version> with your kernel version, as mentioned in the "Kernel" section.
 
 After installing the packages, run the following command to generate the kernel source code:
 ```bash
-[root@srv ~]# update-kernel
+[root@srv ~]$ update-kernel
 ```
 
 Then restart the device.
