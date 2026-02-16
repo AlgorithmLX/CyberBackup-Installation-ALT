@@ -7,7 +7,7 @@ Important! These instructions only cover the installation of CyberBackup, not ho
 ### List of libraries
 - gcc
 - make
-- kernel-headers-modules-<core-version>
+- kernel-headers-modules-`<core-version>`
 - update-kernel
 - perl
 - dkms
