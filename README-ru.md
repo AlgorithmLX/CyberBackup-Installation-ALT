@@ -27,13 +27,13 @@
 ```bash
 [admin@srv ~]$ su -
 Password: 
-[root@srv ~]# apt-get update && apt-get install gcc make update-kernel perl dkms libelf kernel-headers-modules-<core-version> -y
+[root@srv ~]$ apt-get update && apt-get install gcc make update-kernel perl dkms libelf kernel-headers-modules-<core-version> -y
 ```
 `<core-version>` меняем на свою версию ядра, как говорилось в пункте с разделе "Ядро"
 
 После установки пакетов, прописываем следующую команду, чтобы сгенерировать исходники ядра:
 ```bash
-[root@srv ~]# update-kernel
+[root@srv ~]$ update-kernel
 ```
 
 Затем перезапустите устройство.
